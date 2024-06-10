@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  color: #00ff0d;
+}
+
+html {
+  font-family: monospace;
+  font-size: 18px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+  background-color: #212121;
+}
+
+.border {
+  border-radius: 5px;
+  border: 3px solid #00ff0d;
+}
+
+.green {
+  color: #00ff0d;
+}/*# sourceMappingURL=Main.css.map */

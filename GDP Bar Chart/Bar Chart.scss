@@ -1,0 +1,17 @@
+@import "../Main.scss";
+
+h1 {
+    margin-bottom: -0.7rem;
+}
+.bar {
+    fill: $green;
+    &:hover {
+        fill: white;
+    }
+}
+#tooltip {
+    display: none;
+    position: absolute;
+    padding: 0.5em 0.7em;
+    background-color: $background;
+}
