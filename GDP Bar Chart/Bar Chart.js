@@ -103,9 +103,6 @@ async function loadGraph() {
             tooltip.style.display = "block";
             tooltip.style.left = e.pageX + 10 + "px";
             tooltip.style.top = e.pageY + 10 + "px";
-            tooltip.attr("data-date", e.target.getAttribute("data-date"));
-            console.log(e.target);
-            console.log(e.target.__data__);
             tooltip.innerHTML = `${filterDate(e.target.__data__[0])}<br>
                 GDP: $${e.target.__data__[1]} Billion`
 
