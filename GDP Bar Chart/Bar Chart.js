@@ -3,7 +3,7 @@ import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 async function loadGraph() {
     const url = "https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json";
     const width = 800;
-    const height = 550;
+    const height = 500;
     const padding = 50;
 
     //Fetching Data

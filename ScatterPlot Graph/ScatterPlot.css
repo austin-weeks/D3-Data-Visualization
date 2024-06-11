@@ -3,6 +3,10 @@
   color: #00ff0d;
 }
 
+:root {
+  font-size: 1.1rem;
+}
+
 .list {
   margin-top: 3rem;
   display: flex;
@@ -12,7 +16,6 @@
 
 html {
   font-family: monospace;
-  font-size: 1.1rem;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -23,42 +26,13 @@ html {
 }
 
 #graph {
-  transform-origin: 50% 0;
+  position: relative;
+  max-width: 800px;
+  margin: auto;
 }
-@media screen and (max-width: 900px) {
-  #graph {
-    transform: scale(0.9);
-  }
-}
-@media screen and (max-width: 800px) {
-  #graph {
-    transform: scale(0.8);
-  }
-}
-@media screen and (max-width: 700px) {
-  #graph {
-    transform: scale(0.7);
-  }
-}
-@media screen and (max-width: 600px) {
-  #graph {
-    transform: scale(0.6);
-  }
-}
-@media screen and (max-width: 500px) {
-  #graph {
-    transform: scale(0.5);
-  }
-}
-@media screen and (max-width: 400px) {
-  #graph {
-    transform: scale(0.4);
-  }
-}
-@media screen and (max-width: 300px) {
-  #graph {
-    transform: scale(0.3);
-  }
+#graph > svg {
+  width: 100%;
+  height: auto;
 }
 
 .border {
@@ -75,6 +49,7 @@ html {
   position: absolute;
   padding: 0.5em 0.7em;
   background-color: #212121;
+  font-size: 0.9em;
 }
 
 .padding {
@@ -112,4 +87,12 @@ html {
 
 .dot-clickable {
   cursor: pointer;
+}
+
+.dot:not(.dot-clickable):hover {
+  stroke: white;
+}
+
+.dot-clickable:hover {
+  fill: white;
 }/*# sourceMappingURL=ScatterPlot.css.map */

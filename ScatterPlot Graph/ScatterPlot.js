@@ -96,7 +96,6 @@ async function loadGraph() {
             if (data.Doping) window.open(data.URL, "_blank");
         });
     });
-
 }
 
 loadGraph();

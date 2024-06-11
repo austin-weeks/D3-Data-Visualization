@@ -21,3 +21,10 @@
 .dot-clickable {
     cursor: pointer;
 }
+
+.dot:not(.dot-clickable):hover {
+    stroke: white;
+}
+.dot-clickable:hover {
+    fill: white;
+}
