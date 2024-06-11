@@ -110,15 +110,13 @@ async function loadGraph(url, forceChange = false) {
         .text(d => d);
 
     //Legend
-    if (colorBtn.checked) {
-        document.querySelector("#legend").innerHTML = `
+    document.querySelector("#legend").innerHTML = colorBtn.checked ? `
         ${data.children.map((d, i) => {
             return `<div class="legend-item">
             <div class="legend-color color-${i}"></div>
             <span class="legend-text">${d.name}</span>
             </div>`
-        }).join("")}`;
-    }
+        }).join("")}` : "";
 
 
     //Tooltip Logic
