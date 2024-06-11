@@ -27,8 +27,6 @@ html {
 
 #graph {
   position: relative;
-  max-width: 800px;
-  margin: auto;
 }
 #graph > svg {
   width: 100%;
@@ -62,4 +60,4 @@ html {
   bottom: 0.8rem;
   left: 0;
   cursor: pointer;
-}/*# sourceMappingURL=Main.css.map */
+}/*# sourceMappingURL=HeatMap.css.map */

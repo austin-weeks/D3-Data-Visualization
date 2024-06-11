@@ -53,7 +53,7 @@ async function loadGraph() {
         .attr("viewBox", [0, 0, width, height])
         .attr("class", "border");
 
-        document.querySelector("body").append(svg.node());
+        document.querySelector("#graph").append(svg.node());
 
     //X Axis
     svg.append("g")
