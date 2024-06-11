@@ -10,12 +10,3 @@
 .cell {
     fill: $green;
 }
-.legend-color {
-    fill: url(#legend-gradient);
-}
-.legend-color-start {
-    stop-color: $background;
-}
-.legend-color-end {
-    stop-color: $green;
-}

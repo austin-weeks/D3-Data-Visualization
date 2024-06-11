@@ -49,7 +49,7 @@ html {
   position: absolute;
   padding: 0.5em 0.7em;
   background-color: #212121;
-  font-size: 0.9em;
+  font-size: 0.75em;
 }
 
 .padding {
@@ -63,6 +63,18 @@ html {
   bottom: 0.8rem;
   left: 0;
   cursor: pointer;
+}
+
+.legend-color {
+  fill: url(#legend-gradient);
+}
+
+.legend-color-start {
+  stop-color: #212121;
+}
+
+.legend-color-end {
+  stop-color: #00ff0d;
 }
 
 h1 {

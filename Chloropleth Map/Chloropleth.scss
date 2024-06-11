@@ -1,1 +1,9 @@
 @import "../Main.scss";
+
+.county {
+    fill: $green;
+}
+.county:hover {
+    opacity: 100%;
+    fill: white;
+}

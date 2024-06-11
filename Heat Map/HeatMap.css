@@ -65,6 +65,18 @@ html {
   cursor: pointer;
 }
 
+.legend-color {
+  fill: url(#legend-gradient);
+}
+
+.legend-color-start {
+  stop-color: #212121;
+}
+
+.legend-color-end {
+  stop-color: #00ff0d;
+}
+
 #graph {
   max-width: 875px;
 }
@@ -76,16 +88,4 @@ html {
 
 .cell {
   fill: #00ff0d;
-}
-
-.legend-color {
-  fill: url(#legend-gradient);
-}
-
-.legend-color-start {
-  stop-color: #212121;
-}
-
-.legend-color-end {
-  stop-color: #00ff0d;
 }/*# sourceMappingURL=HeatMap.css.map */
