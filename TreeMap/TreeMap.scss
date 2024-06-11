@@ -1,0 +1,166 @@
+@import "../Main.scss";
+$alpha: .15;
+
+$background0: rgba(144, 255, 150, $alpha);
+$background1: rgba(255, 144, 144, $alpha);
+$background2: rgba(144, 207, 255, $alpha);
+$background3: rgba(255, 144, 248, $alpha);
+$background4: rgba(229, 255, 144, $alpha);
+$background5: rgba(144, 255, 244, $alpha);
+$background6: rgba(255, 144, 170, $alpha);
+$background7: rgba(255, 174, 144, $alpha);
+$background8: rgba(144, 255, 190, $alpha);
+$background9: rgba(168, 255, 144, $alpha);
+$background10: rgba(201, 255, 144, $alpha);
+$background11: rgba(192, 144, 255, $alpha);
+$background12: rgba(234, 143, 255, $alpha);
+$background13: rgba(144, 255, 146, $alpha);
+$background14: rgba(144, 249, 255, $alpha);
+$background15: rgba(255, 187, 144, $alpha);
+$background16: rgba(185, 255, 144, $alpha);
+$background17: rgba(144, 185, 255, $alpha);
+$background18: rgba(255, 251, 144, $alpha);
+
+.color-0 {
+    fill: $background0;
+    background-color: $background0;
+}
+.color-1 {
+    fill: $background1;
+    background-color: $background1;
+}
+.color-2 {
+    fill: $background2;
+    background-color: $background2;
+}
+.color-3 {
+    fill: $background3;
+    background-color: $background3;
+}
+.color-4 {
+    fill: $background4;
+    background-color: $background4;
+}
+.color-5 {
+    fill: $background5;
+    background-color: $background5;
+}
+.color-6 {
+    fill: $background6;
+    background-color: $background6;
+}
+.color-7 {
+    fill: $background7;
+    background-color: $background7;
+}
+.color-8 {
+    fill: $background8;
+    background-color: $background8;
+}
+.color-9 {
+    fill: $background9;
+    background-color: $background9;
+}
+.color-10 {
+    fill: $background10;
+    background-color: $background10;
+}
+.color-11 {
+    fill: $background11;
+    background-color: $background11;
+}
+.color-12 {
+    fill: $background12;
+    background-color: $background12;
+}
+.color-13 {
+    fill: $background13;
+    background-color: $background13;
+}
+.color-14 {
+    fill: $background14;
+    background-color: $background14;
+}
+.color-15 {
+    fill: $background15;
+    background-color: $background15;
+}
+.color-16 {
+    fill: $background16;
+    background-color: $background16;
+}
+.color-17 {
+    fill: $background17;
+    background-color: $background17;
+}
+.color-18 {
+    fill: $background18;
+    background-color: $background18;
+}
+.no-color {
+    fill: $background;
+    background-color: $background;
+}
+
+.data-sets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.data-btn {
+    cursor: pointer;
+}
+
+.data-tile {
+    stroke: $green;
+    stroke-width: 1px;
+}
+.data-tile:hover {
+    stroke: white;
+    stroke-width: 3px;
+}
+.tile-text {
+    font-size: 0.5rem;
+    letter-spacing: -0.03em;
+    fill: $green;
+    pointer-events: none;
+}
+#description {
+    margin-bottom: 1rem;
+}
+#use-color {
+    margin-bottom: 1rem;
+    color: $green;
+    transform: scale(1.3);
+    cursor: pointer;
+    accent-color: $green;
+}
+
+#legend {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: .5rem auto 2rem;
+    row-gap: .3em;
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: row;
+    font-size: 0.7rem;
+    width: 40%;
+}
+.legend-text {
+    text-align: right;
+
+}
+.legend-color {
+    min-width: 1em;
+    width: 1em;
+    height: 1em;
+    border: 1px solid $green;
+    border-radius: 2px;
+}
